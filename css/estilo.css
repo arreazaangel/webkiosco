@@ -1,0 +1,125 @@
+/* Luis Angel Lozada Arreaza*/
+
+h2{
+	font-family: sans-serif;
+	margin-left: 140px;
+	margin-top: 40px;
+	background-color: rgba(255, 244, 244, 0.645)
+}
+
+
+body{
+	background-color: black;
+	font-family: sans-serif;
+  }
+  
+  .container{
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	width: 800px;
+	padding: 30px;
+	align-items: center;
+  }
+  
+  ul, li {
+	  padding: 0;
+	  margin: 0;
+	  list-style: none;
+  }
+  
+  ul.slider{
+	position: relative;
+	width: 800px;
+	height: 350px;
+	background-color: slategray;
+  }
+  
+  ul.slider li {
+	  position: absolute;
+	  left: 0px;
+	  top: 0px;
+	  opacity: 0;
+	  width: inherit;
+	  height: inherit;
+	  transition: opacity .5s;
+	  background:rgba(169, 171, 181, 0.549); 
+  }
+  
+  ul.slider li img{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+	margin-left: 270px;
+  }
+  
+  ul.slider li:first-child {
+	  opacity: 1; 
+  }
+  
+  ul.slider li:target {
+	  opacity: 1; 
+  }
+  
+  .menu{
+	text-align: center;
+	margin: 20px;
+  }
+  
+  .menu li{
+	display: inline-block;
+	text-align: center;
+  }
+  
+  .menu li a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	background-color: grey;
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	border-radius: 100%;
+  }
+
+  .carousel-item {
+	height: 65vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .container{
+	color: white;
+	background-color: rgb(174, 18, 18);
+  }
+ .container > .navbar-brand{
+	color: white;
+	
+  }
+
+  .col-sm-4{
+	color:black;
+	
+  }
+
+  .pie_de_pagina{
+	width: 100%;
+	height: fit-content;
+	background-color: rgb(174, 18, 18);
+	color: white;
+	text-align: center;
+
+}
+.pie_de_pagina > img{
+	justify-content: left;
+	align-items: left;
+	width: 250px;
+	
+}
+
+
+
+

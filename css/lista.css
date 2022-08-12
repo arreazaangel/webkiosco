@@ -1,0 +1,55 @@
+/*Luis Angel Lozada Arreaza */
+
+
+h2{
+	font-family: sans-serif;
+	margin-left: 140px;
+	background-color: rgba(255, 244, 244, 0.645)
+}
+body{
+	background-color: black;
+	font-family: sans-serif;
+  }
+  
+  .container{
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	width:100%;
+	padding: 40px;
+	align-items: center;
+  }
+  
+  .container{
+	color: white;
+	background-color: rgb(174, 18, 18);
+	
+  }
+ .container > .navbar-brand{
+	color: white;
+	
+  }
+
+  .col-sm-4{
+	color:black;
+	
+  }
+
+  #contenedor{
+	margin-top: 160px;
+  }
+  
+.pie_de_pagina{
+	width: 100%;
+	height: fit-content;
+	background-color: rgb(174, 18, 18);
+	color: white;
+	text-align: center;
+
+}
+.pie_de_pagina > img{
+	justify-content: left;
+	align-items: left;
+	width: 250px;
+	
+
+}

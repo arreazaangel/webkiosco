@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>kiosco el Pana Che</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="kiosco">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="html, pagina, creación">
+    <meta name="author" content="Luis Angel Lozada Arreaza">
+    <link rel="stylesheet" href="css/lista.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Luis Angel Lozada Arreaza -->
+  
+    <header>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#" >kiosco el Panache</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="color: white;" href="index.html">Home</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;" href="detalle.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;"href="https://goo.gl/maps/YskKus8JfL9jGmKv7" target="_blank">ubicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: white;"href="https://www.instagram.com/kiosco_el_panache/?hl=es" target="_blank">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>  
+<!-- Fin de la barra de navegacion-->
+
+<!-- Proceso del carrito -->
+<main>
+  <div class="container " id="contenedor" style="background-color: white;">
+    <div class="row">
+        <main id="items" class="col-sm-8 row"></main>
+      
+        <aside class="col-sm-4">
+            <h2>Carrito:</h2>
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <p class="text-right">Total: <span id="total"></span>$</p>
+            <p class="text-right">Total productos: <span id="total-productos"></span></p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+        </aside>
+    </div>
+</div>
+
+</main>
+    <!--Proceso del carrito -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- Footer -->
+    <footer class="pie_de_pagina">
+      <a href="">
+        <img src="productos/logokiosco.jpg" alt="logokiosco">
+      </a>
+  <small>&copy;2022 <b> kiosco el Panache </b>-todos los derechos reservados</small>
+  <script src="js/detalle.js"></script>
+</footer>
+<!-- Fin Footer -->
+  
+  </body>
+</html>
